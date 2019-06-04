@@ -58,6 +58,6 @@ function mimicServerCall() {
   return new Promise(function(resolve, reject) {
     setTimeout(function() {
       resolve("Pretend remote server notified of action!");
-    }, 300);
+    }, 300); 
   });
 }
